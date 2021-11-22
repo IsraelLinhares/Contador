@@ -1,68 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
-    <title>Meu Contador</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: arial, sans-serif;
-      }
-
-      html {
-        font-size: 17px;
-      }
-
-      body {
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background: lightblue;
-      }
-
-      section {
-        text-align: center;
-        background: darkblue;
-        color: white;
-        padding: 1rem;
-        border-radius: 0.5rem;
-      }
-
-      p {
-        font-size: 3rem;
-        margin: 0.2em 0;
-      }
-
-      button {
-        font-size: 1rem;
-        padding: 0.5rem 1em;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
   </head>
-
   <body>
-    <section>
+    <div class="tudo">
+      <h1>Contador</h1>
+      <p id="num">0</p>
+      <button onclick="mais()">mais</button>
+      <button onclick="menos()">menos</button>
+      <button onclick="reset()">reset</button>
 
-    <p id="number">0</p>
-    <button onclick="mas()">mais</button>
-    <button onclick="menos()">menos</button>
-    <button onclick="reset()">reset</button>
-    <section>
-
-    <script>
-      const p = document.getElementById("number");
-      let number = 0;
-
-      function mas() {
-        p.innerText = number++;
-            }
-      function menos() {
-        p.innerText = number;
-      }
-      function reset() {
-        p.innerText = number = 0;
-      }
-    </script>
+      <script src="main.js"></script>
+      <link rel="stylesheet" href="main.css">
   </body>
 </html>
