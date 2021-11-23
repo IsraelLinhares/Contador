@@ -1,12 +1,12 @@
-let number = 0;
+let numero = 0;
 const p = document.getElementById("num");
 
 function mais() {
-  p.innerHTML = number++;
-}
-function menos() {
-  p.innerHTML = --number;
-}
-function reset() {
-  p.innerHTML = number = 0;
+  p.innerHTML = numero++;
+  function menos() {
+    p.innerHTML = --numero;
+  }
+  function reset() {
+    p.innerHTML = numero = 0;
+  }
 }

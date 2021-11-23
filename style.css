@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  color: white;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.conteiner {
+  text-align: center;
+  border: 3px solid black;
+  padding: 4vh;
+  font-size: 8vh;
+  background-color: darkblue;
+}
+
+button {
+  border: 1px solid black;
+  padding: 5px;
+  color: aliceblue;
+  background-color: gray;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
