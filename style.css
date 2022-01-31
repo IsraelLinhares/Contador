@@ -13,18 +13,25 @@ body {
 .conteiner {
   text-align: center;
   border: 3px solid black;
-  padding: 2vh;
+  border-radius: 1vh;
+  padding: 10vh 15vh;
   font-size: 8vh;
   background-color: darkblue;
+}
+.conteiner:hover{
+  border-radius: 2vh;
+  transition:1s
 }
 
 button {
   border: 1px solid black;
-  padding: 5px;
+  border-radius: 1vh;
+  padding: 3vh;
   color: aliceblue;
   background-color: gray;
 }
 
 button:hover {
   background-color: darkgrey;
+  transition:0.5s
 }
